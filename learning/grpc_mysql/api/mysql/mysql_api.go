@@ -7,6 +7,7 @@ import (
 
 	pb "grpc_mysql/api/proto"
 
+	_ "github.com/go-sql-driver/mysql"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

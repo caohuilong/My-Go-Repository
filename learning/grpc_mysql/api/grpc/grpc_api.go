@@ -11,6 +11,7 @@ import (
 	"os"
 	"os/signal"
 
+	_ "github.com/go-sql-driver/mysql"
 	"google.golang.org/grpc"
 
 	pb "grpc_mysql/api/proto"
