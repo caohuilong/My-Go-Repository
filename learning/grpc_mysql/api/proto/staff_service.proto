@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+package staff_service;
+
+service StaffService {
+	rpc Create(CreateRequest) returns (CreateResponse) {}
+	rpc Read(ReadRequest) returns (ReadResponse) {}
+	rpc Update(UpdateRequest) returns (UpdateResponse) {}
+	rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+	rpc ReadAll(ReadAllRequest) returns (ReadAllResponse) {}
+}
+
+//向数据库添加事务接口的请求
+message CreateRequest {
+	// 要添加的员工信息
+	StaffInfo staffinfo = 1;
+}
+
+// 员工信息
+message StaffInfo {
+	// 员工编号
+	int64 id = 1;
+	// 员工姓名
+	string name = 2;
+	// 电话号码
+	string phonenumber = 3;
+	// 岗位
+	string position = 4;
+}
+
+//向数据库添加事务接口的响应
+message CreateResponse {
+	// 新添加员工的编号
+	int64 id = 1;
+}
+
+// 查询事务的请求
+message ReadRequest {
+	int64 id = 1;
+}
+
+// 查询事务的响应
+message ReadResponse {
+	StaffInfo staffinfo = 1;
+}
+
+// 更新事务的请求
+message UpdateRequest {
+	StaffInfo staffinfo = 1;
+}
+
+// 更新事务的响应
+message UpdateResponse {
+	int64 updated = 1;
+}
+
+// 删除事务的请求
+message DeleteRequest {
+	int64 id = 1;
+}
+
+// 删除事务的响应
+message DeleteResponse {
+	int64 deleted = 1;
+}
+
+// 查询所有事务的请求
+message ReadAllRequest {
+}
+
+// 查询所有事务的响应
+message ReadAllResponse {
+	repeated StaffInfo staffinfos = 1;
+}
