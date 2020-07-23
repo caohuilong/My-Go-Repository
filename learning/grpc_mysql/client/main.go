@@ -30,9 +30,9 @@ func main() {
 	// 调用Create
 	req1 := pb.CreateRequest{
 		Staffinfo: &pb.StaffInfo{
-			Name:        "caohuilong",
-			Phonenumber: "18215626345",
-			Position:    "Back End",
+			Name:        "guofenglin",
+			Phonenumber: "17724554775",
+			Position:    "Front End",
 		},
 	}
 	res1, err := c.Create(ctx, &req1)
@@ -43,7 +43,7 @@ func main() {
 
 	// 调用Read
 	req2 := pb.ReadRequest{
-		Name: "caohulong",
+		Name: "caohuilong",
 	}
 	res2, err := c.Read(ctx, &req2)
 	if err != nil {
@@ -57,7 +57,7 @@ func main() {
 			Id:          res2.Staffinfo.Id,
 			Name:        res2.Staffinfo.Name,
 			Phonenumber: "17328681706",
-			Position:    "Front End",
+			Position:    "Algorithm Engineer",
 		},
 	}
 	res3, err := c.Update(ctx, &req3)
