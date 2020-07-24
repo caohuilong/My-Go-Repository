@@ -1,0 +1,129 @@
+syntax = "proto3";
+
+package staff_service;
+
+import "google/api/annotations.proto";
+
+option (grpc.gateway.protoc_gen_swagger.options.openapiv2_swagger) = {
+    info: {
+        title: "Staff Info service";
+        version: "1.0";
+        contact: {
+            name: "http-grpc project";
+            url: "https://github.com/cao0507/My-Go-Repository/tree/master/learning/http_grpc";
+            email: "cao130507@163.com";
+        };
+    };
+    schemes: HTTP;
+    consumes: "application/json";
+    produces: "application/json";
+    responses: {
+        key: "404";
+        value: {
+            description: "Returned when the resource does not exist.";
+            schema: {
+                json_schema: {
+                    type: STRING;
+                }
+            }
+        }
+    }
+};
+
+service StaffService {
+	rpc Create(CreateRequest) returns (CreateResponse) {
+		option (google.api.http) = {
+			post: "/example/staffinfo"
+			body: "*"
+		};
+	}
+	rpc Read(ReadRequest) returns (ReadResponse) {
+		option (google.api.http) = {
+			get: "/example/staffinfo/{name}"
+		};
+	}
+	rpc Update(UpdateRequest) returns (UpdateResponse) {
+		option (google.api.http) = {
+			put: "/example/staffinfo/{staffinfo.name}"
+			body: "*"
+
+			additional_bingdings {
+				patch: "/example/staffinfo/{staffinfo.name}"
+				body: "*"
+			}
+		};
+	}
+	rpc Delete(DeleteRequest) returns (DeleteResponse) {
+		option (google.api.http) = {
+			delete: "/example/staffinfo/{name}"
+		};
+	}
+	rpc ReadAll(ReadAllRequest) returns (ReadAllResponse) {
+		option (google.api.http) = {
+			get: "/example/staffinfo/all"
+		};
+	}
+}
+
+//向数据库添加事务接口的请求
+message CreateRequest {
+	// 要添加的员工信息
+	StaffInfo staffinfo = 1;
+}
+
+// 员工信息
+message StaffInfo {
+	// 员工编号
+	int64 id = 1;
+	// 员工姓名
+	string name = 2;
+	// 电话号码
+	string phonenumber = 3;
+	// 岗位
+	string position = 4;
+}
+
+//向数据库添加事务接口的响应
+message CreateResponse {
+	// 新添加员工的编号
+	int64 id = 1;
+}
+
+// 查询事务的请求
+message ReadRequest {
+	string name = 1;
+}
+
+// 查询事务的响应
+message ReadResponse {
+	StaffInfo staffinfo = 1;
+}
+
+// 更新事务的请求
+message UpdateRequest {
+	StaffInfo staffinfo = 1;
+}
+
+// 更新事务的响应
+message UpdateResponse {
+	int64 updated = 1;
+}
+
+// 删除事务的请求
+message DeleteRequest {
+	string name = 1;
+}
+
+// 删除事务的响应
+message DeleteResponse {
+	int64 deleted = 1;
+}
+
+// 查询所有事务的请求
+message ReadAllRequest {
+}
+
+// 查询所有事务的响应
+message ReadAllResponse {
+	repeated StaffInfo staffinfos = 1;
+}
