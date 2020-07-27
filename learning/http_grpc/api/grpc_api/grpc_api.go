@@ -1,11 +1,10 @@
-package grpc
+package grpc_api
 
 import (
 	"context"
 	"database/sql"
 	"flag"
 	"fmt"
-	"grpc_mysql/api/mysql"
 	"log"
 	"net"
 	"os"
@@ -14,7 +13,8 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"google.golang.org/grpc"
 
-	pb "grpc_mysql/api/proto"
+	"http_grpc/api/mysql_api"
+	pb "http_grpc/api/proto"
 )
 
 // config是server的配置
@@ -30,7 +30,7 @@ type config struct {
 }
 
 // 配置参数并调用runServer启动gRPC服务器和HTTP网关
-func Run() error {
+func RunGRPC() error {
 	ctx := context.Background()
 
 	//获取配置
@@ -53,13 +53,13 @@ func Run() error {
 	}
 	defer db.Close()
 
-	mysqlAPI := mysql.NewStaffServiceServer(db)
+	mysqlAPI := mysql_api.NewStaffServiceServer(db)
 
-	return runServer(ctx, mysqlAPI, cfg.GRPCPort)
+	return RunGRPCServer(ctx, mysqlAPI, cfg.GRPCPort)
 }
 
 // RunServer运行gRPC服务以提供对外服务接口
-func runServer(ctx context.Context, mysqlAPI pb.StaffServiceServer, port string) error {
+func RunGRPCServer(ctx context.Context, mysqlAPI pb.StaffServiceServer, port string) error {
 	listen, err := net.Listen("tcp", ":"+port)
 	if err != nil {
 		return err

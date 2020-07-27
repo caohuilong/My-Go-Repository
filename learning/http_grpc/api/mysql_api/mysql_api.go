@@ -1,11 +1,11 @@
-package mysql
+package mysql_api
 
 import (
 	"context"
 	"database/sql"
 	"fmt"
 
-	pb "grpc_mysql/api/proto"
+	pb "http_grpc/api/proto"
 
 	_ "github.com/go-sql-driver/mysql"
 	"google.golang.org/grpc/codes"

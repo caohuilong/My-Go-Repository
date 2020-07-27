@@ -4,32 +4,6 @@ package staff_service;
 
 import "google/api/annotations.proto";
 
-option (grpc.gateway.protoc_gen_swagger.options.openapiv2_swagger) = {
-    info: {
-        title: "Staff Info service";
-        version: "1.0";
-        contact: {
-            name: "http-grpc project";
-            url: "https://github.com/cao0507/My-Go-Repository/tree/master/learning/http_grpc";
-            email: "cao130507@163.com";
-        };
-    };
-    schemes: HTTP;
-    consumes: "application/json";
-    produces: "application/json";
-    responses: {
-        key: "404";
-        value: {
-            description: "Returned when the resource does not exist.";
-            schema: {
-                json_schema: {
-                    type: STRING;
-                }
-            }
-        }
-    }
-};
-
 service StaffService {
 	rpc Create(CreateRequest) returns (CreateResponse) {
 		option (google.api.http) = {
@@ -47,7 +21,7 @@ service StaffService {
 			put: "/example/staffinfo/{staffinfo.name}"
 			body: "*"
 
-			additional_bingdings {
+			additional_bindings {
 				patch: "/example/staffinfo/{staffinfo.name}"
 				body: "*"
 			}
