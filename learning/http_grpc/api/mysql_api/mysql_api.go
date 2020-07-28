@@ -62,7 +62,7 @@ func (s *StaffServiceServer) Read(ctx context.Context, req *pb.ReadRequest) (*pb
 	}
 	defer c.Close()
 
-	// 按照姓名name查询ecf_staff
+	// 按照ID查询ecf_staff
 	rows, err := c.QueryContext(ctx, "SELECT `id`, `name`, `phonenumber`, `position` FROM ecf_staff WHERE `name`=?", req.Name)
 	if err != nil {
 		return nil, status.Error(codes.Unknown, "failed to select from ecf_staff->"+err.Error())

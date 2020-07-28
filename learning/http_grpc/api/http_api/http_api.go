@@ -56,7 +56,7 @@ func RunHTTP() error {
 		return fmt.Errorf("invalid TCP port for HTTP gateway: '%s'", cfg.HTTPPort)
 	}
 
-	dsn := fmt.Sprintf("%s:%s@tcp(%s)/%s", cfg.DatastoreDBUser, cfg.DatastoreDBPassword, cfg.DatastoreDBHost, cfg.DatastoreDBSchema)
+	dsn := fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8", cfg.DatastoreDBUser, cfg.DatastoreDBPassword, cfg.DatastoreDBHost, cfg.DatastoreDBSchema)
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
 		return fmt.Errorf("failed to open database:%v", err)

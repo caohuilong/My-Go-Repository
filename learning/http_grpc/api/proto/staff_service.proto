@@ -34,7 +34,7 @@ service StaffService {
 	}
 	rpc ReadAll(ReadAllRequest) returns (ReadAllResponse) {
 		option (google.api.http) = {
-			get: "/example/staffinfo/all"
+			get: "/example/all"
 		};
 	}
 }

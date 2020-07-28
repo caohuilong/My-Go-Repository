@@ -631,7 +631,7 @@ var (
 
 	pattern_StaffService_Delete_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 1, 0, 4, 1, 5, 2}, []string{"example", "staffinfo", "name"}, "", runtime.AssumeColonVerbOpt(true)))
 
-	pattern_StaffService_ReadAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2}, []string{"example", "staffinfo", "all"}, "", runtime.AssumeColonVerbOpt(true)))
+	pattern_StaffService_ReadAll_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1}, []string{"example", "all"}, "", runtime.AssumeColonVerbOpt(true)))
 )
 
 var (
