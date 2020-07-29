@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:8.0.21
+    container_name: mysql
+    restart: always
+    volumes:
+      - /data/mysql/data:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d/
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+
+  http_gateway:
+    image: http_gateway:v1.0.0
+    container_name: http_gateway
+    ports:
+      - "8080:8080"
+    working_dir: /app
+    command: ./http_gateway -db-host mysql:3306 -db-user=chl -db-password=chl123 -db-schema=staff -grpc-port=9090 -http-port=8080
+    links:
+      - mysql
+    depends_on:
+      - mysql
