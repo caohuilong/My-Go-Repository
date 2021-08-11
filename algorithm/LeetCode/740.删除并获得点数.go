@@ -6,19 +6,22 @@
 
 // @lc code=start
 func deleteAndEarn(nums []int) int {
-	maxNum := 0 
-	for _, num := range nums {
-		if num > maxNum {
-			maxNum = num
+	sum := 0
+	sort.Ints(nums)
+	arr := []int{nums[0]}
+	for i := 1; i < len(nums); i++ {
+		val := nums[i]
+		if nums[i-1] == val {
+			arr[len(arr)-1] += val
+		} else if nums[i-1] == val-1 {
+			arr = append(arr, val)
+		} else {
+			sum += rob(arr)
+			arr = []int{val}
 		}
 	}
-
-	countArray := make([]int, maxNum+1)
-	for _, num := range nums {
-		countArray[num] += num
-	}
-
-	return rob(countArray)
+	sum += rob(arr)
+	return sum
 }
 
 func rob(nums []int) int {
