@@ -1,0 +1,1413 @@
+{
+    "requestId": "55a399965a059c130f69cfd80a8ddb5b",
+    "status": {
+        "code": "ok",
+        "message": "操作成功"
+    },
+    "alarmStatistics": {
+        "emergencyAlarm": 0,
+        "importantAlarm": 0,
+        "minorAlarm": 0,
+        "hintAlarm": 0
+    },
+    "provinceBwStatisticsList": [],
+    "clusterBwStatisticsList": [],
+    "areaMachineCountList": [
+        {
+            "coordinates": [
+                0,
+                0
+            ],
+            "machineCountList": [
+                {
+                    "name": "毕节1",
+                    "count": 12
+                },
+                {
+                    "name": "海东1",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                81.29785,
+                43.92225
+            ],
+            "machineCountList": [
+                {
+                    "name": "伊犁1",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                86.12169,
+                41.771362
+            ],
+            "machineCountList": [
+                {
+                    "name": "巴音郭楞1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                97.34263,
+                37.3738
+            ],
+            "machineCountList": [
+                {
+                    "name": "海西州1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                98.508415,
+                39.741474
+            ],
+            "machineCountList": [
+                {
+                    "name": "酒泉1",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                98.58943,
+                24.44124
+            ],
+            "machineCountList": [
+                {
+                    "name": "德宏1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                99.17799,
+                25.12049
+            ],
+            "machineCountList": [
+                {
+                    "name": "保山1",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                100.09261,
+                23.887806
+            ],
+            "machineCountList": [
+                {
+                    "name": "临沧1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                100.22963,
+                26.87535
+            ],
+            "machineCountList": [
+                {
+                    "name": "丽江1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                100.45989,
+                38.93932
+            ],
+            "machineCountList": [
+                {
+                    "name": "张掖1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                100.98006,
+                22.788778
+            ],
+            "machineCountList": [
+                {
+                    "name": "普洱1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                101.52938,
+                25.066357
+            ],
+            "machineCountList": [
+                {
+                    "name": "楚雄1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                102.7146,
+                25.049152
+            ],
+            "machineCountList": [
+                {
+                    "name": "昆明1",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                103.72502,
+                27.340633
+            ],
+            "machineCountList": [
+                {
+                    "name": "昭通1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                103.78254,
+                25.520758
+            ],
+            "machineCountList": [
+                {
+                    "name": "曲靖1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                103.8233,
+                36.064224
+            ],
+            "machineCountList": [
+                {
+                    "name": "兰州1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                104.067924,
+                30.679943
+            ],
+            "machineCountList": [
+                {
+                    "name": "成都1",
+                    "count": 7
+                },
+                {
+                    "name": "成都2",
+                    "count": 3
+                },
+                {
+                    "name": "成都3",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                104.90056,
+                25.095148
+            ],
+            "machineCountList": [
+                {
+                    "name": "黔西南1",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                105.92827,
+                26.228596
+            ],
+            "machineCountList": [
+                {
+                    "name": "安顺1",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                106.68891,
+                35.55011
+            ],
+            "machineCountList": [
+                {
+                    "name": "平凉1",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                106.709175,
+                26.629908
+            ],
+            "machineCountList": [
+                {
+                    "name": "贵阳1",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                107.17065,
+                34.364082
+            ],
+            "machineCountList": [
+                {
+                    "name": "宝鸡1",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                107.98535,
+                26.583992
+            ],
+            "machineCountList": [
+                {
+                    "name": "黔东南1",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                108.06995,
+                24.69952
+            ],
+            "machineCountList": [
+                {
+                    "name": "河池1",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                108.70751,
+                34.34537
+            ],
+            "machineCountList": [
+                {
+                    "name": "咸阳1",
+                    "count": 18
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                109.48393,
+                34.502357
+            ],
+            "machineCountList": [
+                {
+                    "name": "渭南1",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                109.50051,
+                36.60332
+            ],
+            "machineCountList": [
+                {
+                    "name": "延安1",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                109.61371,
+                23.103373
+            ],
+            "machineCountList": [
+                {
+                    "name": "贵港1",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                109.93421,
+                33.873905
+            ],
+            "machineCountList": [
+                {
+                    "name": "商洛1",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                109.98696,
+                27.557484
+            ],
+            "machineCountList": [
+                {
+                    "name": "怀化1",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                110.3308,
+                20.022072
+            ],
+            "machineCountList": [
+                {
+                    "name": "海口1",
+                    "count": 15
+                },
+                {
+                    "name": "海口2",
+                    "count": 7
+                },
+                {
+                    "name": "海口3",
+                    "count": 33
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                110.48162,
+                29.12489
+            ],
+            "machineCountList": [
+                {
+                    "name": "张家界1",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                110.80123,
+                32.636993
+            ],
+            "machineCountList": [
+                {
+                    "name": "十堰1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                111.61465,
+                26.435972
+            ],
+            "machineCountList": [
+                {
+                    "name": "永州1",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                111.660355,
+                40.82832
+            ],
+            "machineCountList": [
+                {
+                    "name": "呼和浩特1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                111.9964,
+                27.741074
+            ],
+            "machineCountList": [
+                {
+                    "name": "娄底1",
+                    "count": 13
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                112.36655,
+                28.588087
+            ],
+            "machineCountList": [
+                {
+                    "name": "益阳1",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                112.54284,
+                33.01142
+            ],
+            "machineCountList": [
+                {
+                    "name": "南阳1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                112.550865,
+                37.890278
+            ],
+            "machineCountList": [
+                {
+                    "name": "太原1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                112.58382,
+                26.898165
+            ],
+            "machineCountList": [
+                {
+                    "name": "衡阳1",
+                    "count": 19
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                112.979355,
+                28.213478
+            ],
+            "machineCountList": [
+                {
+                    "name": "长沙1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.037704,
+                25.782265
+            ],
+            "machineCountList": [
+                {
+                    "name": "郴州1",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.134026,
+                23.035095
+            ],
+            "machineCountList": [
+                {
+                    "name": "佛山1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.30765,
+                23.120049
+            ],
+            "machineCountList": [
+                {
+                    "name": "广州1",
+                    "count": 12
+                },
+                {
+                    "name": "广州2",
+                    "count": 11
+                },
+                {
+                    "name": "广州3",
+                    "count": 13
+                },
+                {
+                    "name": "广州4",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.763435,
+                23.043024
+            ],
+            "machineCountList": [
+                {
+                    "name": "东莞1",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.85992,
+                27.639544
+            ],
+            "machineCountList": [
+                {
+                    "name": "萍乡1",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                113.91269,
+                35.30726
+            ],
+            "machineCountList": [
+                {
+                    "name": "新乡1",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.04916,
+                32.98316
+            ],
+            "machineCountList": [
+                {
+                    "name": "驻马店1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.08549,
+                32.128582
+            ],
+            "machineCountList": [
+                {
+                    "name": "信阳1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.29777,
+                35.755424
+            ],
+            "machineCountList": [
+                {
+                    "name": "鹤壁1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.3162,
+                30.581083
+            ],
+            "machineCountList": [
+                {
+                    "name": "武汉1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.41066,
+                23.11354
+            ],
+            "machineCountList": [
+                {
+                    "name": "惠州1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.935905,
+                25.845297
+            ],
+            "machineCountList": [
+                {
+                    "name": "赣州1",
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.94712,
+                27.822323
+            ],
+            "machineCountList": [
+                {
+                    "name": "新余1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                114.99204,
+                27.113848
+            ],
+            "machineCountList": [
+                {
+                    "name": "吉安1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                115.89353,
+                28.689577
+            ],
+            "machineCountList": [
+                {
+                    "name": "南昌1",
+                    "count": 30
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                116.6008,
+                35.402122
+            ],
+            "machineCountList": [
+                {
+                    "name": "济宁1",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.018,
+                25.078686
+            ],
+            "machineCountList": [
+                {
+                    "name": "龙岩1",
+                    "count": 3
+                },
+                {
+                    "name": "龙岩2",
+                    "count": 45
+                },
+                {
+                    "name": "龙岩3",
+                    "count": 25
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.01864,
+                32.64281
+            ],
+            "machineCountList": [
+                {
+                    "name": "淮南1",
+                    "count": 3
+                },
+                {
+                    "name": "青岛1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.02496,
+                36.682785
+            ],
+            "machineCountList": [
+                {
+                    "name": "济南1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.05874,
+                30.537897
+            ],
+            "machineCountList": [
+                {
+                    "name": "安庆1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.08942,
+                36.18808
+            ],
+            "machineCountList": [
+                {
+                    "name": "泰安1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.18652,
+                29.303562
+            ],
+            "machineCountList": [
+                {
+                    "name": "景德镇1",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.18811,
+                34.271553
+            ],
+            "machineCountList": [
+                {
+                    "name": "徐州1",
+                    "count": 1
+                },
+                {
+                    "name": "徐州2",
+                    "count": 1
+                },
+                {
+                    "name": "徐州3",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.210815,
+                39.14393
+            ],
+            "machineCountList": [
+                {
+                    "name": "西青1",
+                    "count": 3
+                },
+                {
+                    "name": "西青2",
+                    "count": 44
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.6422,
+                26.270836
+            ],
+            "machineCountList": [
+                {
+                    "name": "三明1",
+                    "count": 3
+                },
+                {
+                    "name": "三明2",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.67621,
+                24.517065
+            ],
+            "machineCountList": [
+                {
+                    "name": "漳州1",
+                    "count": 31
+                },
+                {
+                    "name": "漳州5",
+                    "count": 26
+                },
+                {
+                    "name": "漳州6",
+                    "count": 9
+                },
+                {
+                    "name": "漳州7",
+                    "count": 24
+                },
+                {
+                    "name": "漳州8",
+                    "count": 11
+                },
+                {
+                    "name": "漳州9",
+                    "count": 13
+                },
+                {
+                    "name": "漳州A",
+                    "count": 66
+                },
+                {
+                    "name": "漳州B",
+                    "count": 25
+                },
+                {
+                    "name": "漳州C",
+                    "count": 30
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                117.96829,
+                37.405315
+            ],
+            "machineCountList": [
+                {
+                    "name": "滨州1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                118.10389,
+                24.489231
+            ],
+            "machineCountList": [
+                {
+                    "name": "厦门1",
+                    "count": 12
+                },
+                {
+                    "name": "厦门3",
+                    "count": 22
+                },
+                {
+                    "name": "厦门A",
+                    "count": 11
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                118.181885,
+                26.643625
+            ],
+            "machineCountList": [
+                {
+                    "name": "南平1",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                118.29689,
+                33.95205
+            ],
+            "machineCountList": [
+                {
+                    "name": "宿迁1",
+                    "count": 1
+                },
+                {
+                    "name": "宿迁2",
+                    "count": 1
+                },
+                {
+                    "name": "宿迁3",
+                    "count": 3
+                },
+                {
+                    "name": "宿迁4",
+                    "count": 3
+                },
+                {
+                    "name": "宿迁5",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                118.600365,
+                24.901651
+            ],
+            "machineCountList": [
+                {
+                    "name": "泉州1",
+                    "count": 3
+                },
+                {
+                    "name": "泉州2",
+                    "count": 19
+                },
+                {
+                    "name": "泉州3",
+                    "count": 20
+                },
+                {
+                    "name": "泉州4",
+                    "count": 208
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                118.778076,
+                32.057236
+            ],
+            "machineCountList": [
+                {
+                    "name": "南京1",
+                    "count": 12
+                },
+                {
+                    "name": "南京2",
+                    "count": 1
+                },
+                {
+                    "name": "南京3",
+                    "count": 1
+                },
+                {
+                    "name": "南京4",
+                    "count": 1
+                },
+                {
+                    "name": "南京5",
+                    "count": 1
+                },
+                {
+                    "name": "南京6",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.03019,
+                33.606514
+            ],
+            "machineCountList": [
+                {
+                    "name": "淮安1",
+                    "count": 1
+                },
+                {
+                    "name": "淮安2",
+                    "count": 1
+                },
+                {
+                    "name": "淮安3",
+                    "count": 5
+                },
+                {
+                    "name": "淮安4",
+                    "count": 16
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.07773,
+                25.44845
+            ],
+            "machineCountList": [
+                {
+                    "name": "莆田1",
+                    "count": 10
+                },
+                {
+                    "name": "莆田2",
+                    "count": 6
+                },
+                {
+                    "name": "莆田3",
+                    "count": 3
+                },
+                {
+                    "name": "莆田4",
+                    "count": 13
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.14263,
+                36.716114
+            ],
+            "machineCountList": [
+                {
+                    "name": "潍坊1",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.173874,
+                34.601547
+            ],
+            "machineCountList": [
+                {
+                    "name": "连云港1",
+                    "count": 1
+                },
+                {
+                    "name": "连云港2",
+                    "count": 1
+                },
+                {
+                    "name": "连云港3",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.33022,
+                26.047125
+            ],
+            "machineCountList": [
+                {
+                    "name": "福州1",
+                    "count": 101
+                },
+                {
+                    "name": "福州A",
+                    "count": 26
+                },
+                {
+                    "name": "福州B",
+                    "count": 14
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.42778,
+                32.408504
+            ],
+            "machineCountList": [
+                {
+                    "name": "扬州1",
+                    "count": 1
+                },
+                {
+                    "name": "扬州2",
+                    "count": 1
+                },
+                {
+                    "name": "扬州3",
+                    "count": 6
+                },
+                {
+                    "name": "扬州4",
+                    "count": 3
+                },
+                {
+                    "name": "扬州5",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.45583,
+                32.20441
+            ],
+            "machineCountList": [
+                {
+                    "name": "镇江1",
+                    "count": 1
+                },
+                {
+                    "name": "镇江2",
+                    "count": 1
+                },
+                {
+                    "name": "镇江3",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.54208,
+                26.656527
+            ],
+            "machineCountList": [
+                {
+                    "name": "宁德1",
+                    "count": 26
+                },
+                {
+                    "name": "宁德2",
+                    "count": 40
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.76082,
+                49.201637
+            ],
+            "machineCountList": [
+                {
+                    "name": "呼伦贝尔1",
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.91961,
+                32.47605
+            ],
+            "machineCountList": [
+                {
+                    "name": "泰州1",
+                    "count": 1
+                },
+                {
+                    "name": "泰州2",
+                    "count": 1
+                },
+                {
+                    "name": "泰州3",
+                    "count": 37
+                },
+                {
+                    "name": "泰州4",
+                    "count": 5
+                },
+                {
+                    "name": "泰州5",
+                    "count": 9
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                119.98186,
+                31.771397
+            ],
+            "machineCountList": [
+                {
+                    "name": "常州1",
+                    "count": 1
+                },
+                {
+                    "name": "常州2",
+                    "count": 1
+                },
+                {
+                    "name": "常州3",
+                    "count": 6
+                },
+                {
+                    "name": "常州4",
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                120.14887,
+                33.379864
+            ],
+            "machineCountList": [
+                {
+                    "name": "盐城1",
+                    "count": 1
+                },
+                {
+                    "name": "盐城2",
+                    "count": 1
+                },
+                {
+                    "name": "盐城3",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                120.30546,
+                31.570038
+            ],
+            "machineCountList": [
+                {
+                    "name": "无锡1",
+                    "count": 1
+                },
+                {
+                    "name": "无锡2",
+                    "count": 1
+                },
+                {
+                    "name": "无锡3",
+                    "count": 8
+                },
+                {
+                    "name": "无锡4",
+                    "count": 15
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                120.6199,
+                31.317987
+            ],
+            "machineCountList": [
+                {
+                    "name": "苏州1",
+                    "count": 1
+                },
+                {
+                    "name": "苏州2",
+                    "count": 1
+                },
+                {
+                    "name": "苏州3",
+                    "count": 1
+                },
+                {
+                    "name": "苏州4",
+                    "count": 1
+                },
+                {
+                    "name": "苏州5",
+                    "count": 11
+                },
+                {
+                    "name": "苏州6",
+                    "count": 13
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                120.8738,
+                32.014664
+            ],
+            "machineCountList": [
+                {
+                    "name": "南通1",
+                    "count": 1
+                },
+                {
+                    "name": "南通2",
+                    "count": 1
+                },
+                {
+                    "name": "南通3",
+                    "count": 7
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                121.4879,
+                31.249163
+            ],
+            "machineCountList": [
+                {
+                    "name": "浦东新区1",
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                121.593475,
+                38.94871
+            ],
+            "machineCountList": [
+                {
+                    "name": "大连1",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                122.16987,
+                30.03601
+            ],
+            "machineCountList": [
+                {
+                    "name": "舟山1",
+                    "count": 6
+                }
+            ]
+        },
+        {
+            "coordinates": [
+                123.43279,
+                41.808643
+            ],
+            "machineCountList": [
+                {
+                    "name": "沈阳1",
+                    "count": 3
+                }
+            ]
+        }
+    ]
+}
