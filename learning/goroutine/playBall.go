@@ -10,7 +10,7 @@ func init() {
 	rand.Seed(time.Now().UnixNano())
 }
 
-func main() {
+func main2() {
 	wg.Add(2)
 
 	court := make(chan int)
