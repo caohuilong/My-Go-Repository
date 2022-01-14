@@ -18,4 +18,14 @@ func main() {
 	mydog.name = "piggie"
 	fmt.Println("Roger and mydog are equal structs?", roger == mydog)
 	fmt.Println(roger.name)
+
+	networks := []string{}
+	add(networks)
+	for _, item := range networks {
+		fmt.Println(item)
+	}
+}
+
+func add(networks []string) {
+	networks = append(networks, "aaa")
 }
