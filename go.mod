@@ -8,6 +8,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/labstack/gommon v0.3.0
 	github.com/tealeg/xlsx v1.0.5
+	github.com/vishvananda/netlink v1.1.0 // indirect
 	k8s.io/apimachinery v0.20.2
 	k8s.io/client-go v0.20.2
 )
