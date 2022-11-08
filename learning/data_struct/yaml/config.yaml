@@ -1,0 +1,6 @@
+- nodeName: ai-2080ti-27
+  nvidia: 3
+  vfio: 5
+- nodeName: ai-2080ti-28
+  nvidia: 4
+  vfio: 4

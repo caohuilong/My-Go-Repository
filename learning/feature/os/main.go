@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func file() {
 	// 预定义变量, 保存命令行参数
 	fmt.Println(os.Args)
 
@@ -46,6 +46,17 @@ func main() {
 	// 创建临时目录
 	tmp_dir := os.TempDir()
 	fmt.Println(tmp_dir)
+}
+
+func stdoutFunc() {
+	stdout := os.Stdout.Name()
+	fmt.Println(stdout)
+
+
+}
+
+func main() {
+	stdoutFunc()
 
 	return
 }

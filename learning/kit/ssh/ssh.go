@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/terminal"
 	"io"
 	"log"
 	"net"
 	"os"
 	"time"
+
+	"golang.org/x/crypto/ssh"
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 type Cli struct {
@@ -94,7 +95,7 @@ func (c *Cli) RunTerminal(stdout, stderr io.Writer) error {
 }
 
 func main() {
-	cli := New("IP", "用户名", "密码", 22)
+	cli := New("192.168.56.103", "root", "123456", 22)
 	err := cli.RunTerminal(os.Stdout, os.Stdin)
 	if err != nil {
 		log.Fatal(err)
