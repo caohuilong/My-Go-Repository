@@ -25,7 +25,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/tealeg/xlsx v1.0.5
 	github.com/vishvananda/netlink v1.1.0
-	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
+	golang.org/x/crypto v0.1.0
 	gopkg.in/yaml.v3 v3.0.1
 	gotest.tools/v3 v3.2.0 // indirect
 	k8s.io/apimachinery v0.20.2
