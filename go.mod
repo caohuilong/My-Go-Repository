@@ -8,7 +8,7 @@ require (
 	github.com/StackExchange/wmi v1.2.1
 	github.com/aws/aws-sdk-go v1.44.42
 	github.com/docker/distribution v2.8.1+incompatible // indirect
-	github.com/docker/docker v20.10.17+incompatible
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/getsentry/sentry-go v0.11.0
