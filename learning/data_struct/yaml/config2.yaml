@@ -1,0 +1,6 @@
+rendezvous_base_url: http://42.186.153.59:48462
+train_id: 8bd5fa05-c536-4192-a3ab-9217c11fe296
+resource_id: gamecore-9
+hostname: windows9
+startup_cmd: python C:\\bbq_train.py
+gamecore_startup: Taskmgr.exe
